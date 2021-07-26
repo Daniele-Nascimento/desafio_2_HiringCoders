@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo Administrativo - Pet Boutique</title>
+    <link rel="stylesheet" type="text/css"  href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class=topo>
+            <h1>Cadastro de Cliente e Produto - Pet Boutique!</h1>
+        </div>
+    </header>
+    
+        <main>
+
+            <div class="painel">
+                <form class="form">
+                    <p>Dados Pessoais</p>
+                    <fieldset class=dadosCliente>
+                        <label for="nome">Nome</label>
+                        <input id="nome" type="text" name="nome">
+
+                        <label for="telefone">Telefone</label>
+                        <input id="telefone" type="tel" name="telefone">
+                        
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email">
+
+                        <label for="cep">CEP</label>
+                        <input id="cep" type="text" name="cep">
+
+                        <label for="endereco">Endereço</label>
+                        <input id="endereco" type="text" name="endereco">
+
+                        <label for="numero">Nº</label>
+                        <input id="numero" type="text" name="numero">
+
+                        <label for="complemento">Complemento</label>
+                        <input id="complemento" type="text" name="complemento">
+
+                        <label for="cidade">Cidade</label>
+                        <input id="cidade" type="text" name="cidade">
+
+                        <label for="estado">Estado</label>
+                        <input id="estado" type="text" name="estado">
+                    </fieldset>
+                    <h6>    
+                    <input id="enviar" type="submit" value="Cadastrar">
+                    <input id="apagar" type="reset" value="Limpar">
+                    </h6>
+                </form>
+             
+            </div>
+
+            <div class="painel">
+                <form class="form">
+                    <p>Dados do Produto</p>
+                    <fieldset class="produto">
+                        <label for="codigo">Código</label>
+                        <input class="prod" id="codigo" name="codigo" type="text">
+
+                        <label for="empresa">Empresa</label>
+                        <input class="prod" id="empresa" name="empresa" type="text">
+
+                        <label for="valor">Valor</label>
+                        <input class="prod" id="valor" name="valor" type="number">
+                    </fieldset>
+
+                    <h6>    
+                        <input id="enviar" type="submit" value="Cadastrar">
+                        <input id="apagar" type="reset" value="Limpar">
+                    </h6>
+                </form>
+            </div>
+    </main>
+    <script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>

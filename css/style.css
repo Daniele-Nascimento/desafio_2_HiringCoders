@@ -1,0 +1,149 @@
+header, body, div, a, main{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    border: none;
+}
+
+body{
+    background-image: url('../image/dachshund-dogs-wallpaper.jpg');
+}
+
+header .topo {
+    font-size: 20px;
+    font-weight: 100;
+    margin: 60px;
+    color: rgb(1, 4, 19);
+}
+
+body{
+    max-width: 800px;
+    margin: 0px auto;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Open Sans",sans-serif;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    margin: 0px auto;
+    height: 470px;
+}
+
+main{
+    background-color: rgb(243, 237, 157);
+    border-radius: 80px;
+    width: 100%;
+}
+.menu{
+    background-color: rgb(243, 101, 82);
+    border-radius: 10px 0 0 10px;
+}
+.menu a{
+    display: block;
+    width: 100px;
+    text-decoration: none;
+    height: 30px;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    margin: 0px auto;
+    padding-top: 50px;
+    border-radius: 10px 10 0 0;
+
+}
+
+.painel{
+    margin: 0px auto;
+    padding: 20px;
+
+}
+
+.painel p{
+    font-weight: 600;   
+    text-align: center;
+}
+
+.painel h3{
+    text-align: center;
+    line-height: 400px;
+}
+
+.painel form .enderecoCliente #endereco{
+    width: 10%;
+}
+
+.painel form .enderecoCliente #numero{
+    width: 10%;
+}
+
+.painel form .enderecoCliente #complemento{
+    width: 10%;
+}
+
+.painel form .enderecoCliente #bairro{
+    width: 10%
+}
+
+.painel form .enderecoCliente #estado{
+    width: 10%;
+}
+
+
+input.prod{
+    display: inline-block;
+    width: 97%;
+}
+
+
+.painel form .dadosCliente #nome{
+    width: 30%;
+}
+
+.painel form .dadosCliente #email{
+    width: 60%;
+}
+
+.painel h6{
+    text-align: center;
+}
+
+.painel h6 #enviar{
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.painel h6 #cadastrar{
+    
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+
+#cadastrar:hover{
+    background-color: rgb(171, 82, 243);
+    color:rgb(121, 20, 238);
+    
+}
+
+.painel h6 #apagar{
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#apagar:hover{
+    background-color: rgb(25, 151, 235);
+    color:rgb(13, 14, 13);
+}
+#enviar:hover{
+    background-color: rgb(25, 151, 235);
+    color:rgb(13, 14, 13);
+    
+}
